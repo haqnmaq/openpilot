@@ -27,8 +27,8 @@ NetworkType = log.ThermalData.NetworkType
 NetworkStrength = log.ThermalData.NetworkStrength
 CURRENT_TAU = 15.   # 15s time constant
 CPU_TEMP_TAU = 5.   # 5s time constant
-DAYS_NO_CONNECTIVITY_MAX = 1000  # do not allow to engage after 1000 days without internet
-DAYS_NO_CONNECTIVITY_PROMPT = 1000  # send an offroad prompt after 1000 days with no internet
+DAYS_NO_CONNECTIVITY_MAX = 7  # do not allow to engage after 1000 days without internet
+DAYS_NO_CONNECTIVITY_PROMPT = 4  # send an offroad prompt after 1000 days with no internet
 DISCONNECT_TIMEOUT = 5.  # wait 5 seconds before going offroad after disconnect so you get an alert
 
 LEON = False
